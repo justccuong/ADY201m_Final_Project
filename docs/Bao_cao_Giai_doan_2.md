@@ -3,8 +3,8 @@
 * **Môn học:** ADY201m - Introduction to Data Science
 * **Lớp:** AI2013
 * **Giảng viên hướng dẫn:** Thầy Đặng Văn Hiếu
-* **Nhóm thực hiện:** Nhóm Đồ án Học thuật & Công nghiệp PR
-* **Thành viên phụ trách Giai đoạn 2:** Đặng Cao Cường (Data Engineer - SQL/DB) & Trần Đức Thịnh (Data Analyst - Tiền xử lý/Làm sạch)
+* **Nhóm thực hiện:** Nhóm 3
+* **Thành viên chính phụ trách Giai đoạn 2:** Đặng Cao Cường (Data Engineer - SQL/DB) & Trần Đức Thịnh (Data Analyst - Tiền xử lý/Làm sạch)
 
 ---
 
