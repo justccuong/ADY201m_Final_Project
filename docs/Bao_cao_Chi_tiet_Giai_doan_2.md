@@ -268,7 +268,9 @@ flowchart LR
 #### Bước 3: Chuẩn hóa thời gian & Tính toán lại thời gian sống thực tế
 * Chuyển các cột `created_datetime`, `closed_datetime`, và `merged_datetime` sang kiểu dữ liệu `datetime64` của Pandas.
 * Tính lại thời gian tồn tại thực tế của **tất cả** PR (bao gồm cả các PR bị đóng không merge) theo công thức:
-  \text{duration\_minutes} = \frac{\text{total\_seconds}(\text{closed\_datetime} - \text{created\_datetime})}{60.0}
+
+$$\text{Duration (minutes)} = \frac{\text{Closed Datetime} - \text{Created Datetime}}{60}$$
+
 * Thống kê ghi nhận không có PR nào bị lỗi logic thời gian âm (`duration_minutes` < 0).
 
 #### Bước 4: Lọc bỏ các giá trị ngoại lệ cực đoan (Outliers Removal)
